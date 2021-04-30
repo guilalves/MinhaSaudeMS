@@ -1,6 +1,7 @@
 from django.db import models
 from datetime import datetime as DT
 
+
 class Produtos(models.Model):
 
     quantidade = models.IntegerField()
